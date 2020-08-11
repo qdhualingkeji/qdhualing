@@ -9,7 +9,6 @@
 <!--js 部分-->
 <script type="text/javascript" src="http://www.qdhualing.com/Templates/green/js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="http://www.qdhualing.com/Templates/green/js/myfocus-2.0.1.min.js"></script>
-<script type="text/javascript" src="/Templates/green/js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript">
 function AutoResizeImage(maxWidth,maxHeight,objImg){
 var img = new Image();
@@ -130,8 +129,8 @@ a {
     position: relative;
     transition-property: transform,-webkit-transform;
 	padding: 0;
-margin: 0;
-box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
 }
 .swiper-slide .layer_1 {
     font-size: 11px;
@@ -273,114 +272,114 @@ $(".topn").toggle(function(){
 <!--nav部分  class="selected2" -->
 <div class="nav">
   <ul class="nav_list clearfix">
-    <li class="drop-menu-effect"><a href="/" ><span>首页</span></a></li>
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/" ><span>首页</span></a></li>
 	
-    <li class="drop-menu-effect"><a href="/about/?8.html"  >公司简介</a> 
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/about/?8.html"  >公司简介</a> 
     </li>
     
-    <li class="drop-menu-effect"><a href="/about/?14.html"  >解决方案</a>
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/about/?14.html"  >解决方案</a>
       <ul class="submenu" >
-        <li><a href="/about/?172.html">WMS管理系统解..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?172.html">WMS管理系统解..</a></li>
         
-        <li><a href="/about/?170.html">厂区人员定位系统..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?170.html">厂区人员定位系统..</a></li>
         
-        <li><a href="/about/?167.html">园林树木二维码溯..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?167.html">园林树木二维码溯..</a></li>
         
-        <li><a href="/about/?154.html">产品二维码信息查..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?154.html">产品二维码信息查..</a></li>
         
-        <li><a href="/about/?175.html">辰麒智能称重管理..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?175.html">辰麒智能称重管理..</a></li>
         
-        <li><a href="/about/?163.html">扫二维码查看说明..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?163.html">扫二维码查看说明..</a></li>
         
-        <li><a href="/about/?161.html">二维码防伪查询系..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?161.html">二维码防伪查询系..</a></li>
         
-        <li><a href="/about/?152.html">产品赋码追溯系统..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?152.html">产品赋码追溯系统..</a></li>
         
-        <li><a href="/about/?162.html">二维码商品信息查..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?162.html">二维码商品信息查..</a></li>
         
-        <li><a href="/about/?153.html">石墨负极材料生产..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?153.html">石墨负极材料生产..</a></li>
         
-        <li><a href="/about/?159.html">电厂DCS自动化..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?159.html">电厂DCS自动化..</a></li>
         
-        <li><a href="/about/?160.html">共享医疗器械二维..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?160.html">共享医疗器械二维..</a></li>
         
-        <li><a href="/about/?101.html">润滑油行业自动化..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?101.html">润滑油行业自动化..</a></li>
         
-        <li><a href="/about/?139.html">锅炉行业自动化控..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?139.html">锅炉行业自动化控..</a></li>
         
-        <li><a href="/about/?110.html">脱硝自动化控制系..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?110.html">脱硝自动化控制系..</a></li>
         
-        <li><a href="/about/?146.html">农药生产制剂自动..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?146.html">农药生产制剂自动..</a></li>
         
-        <li><a href="/about/?140.html">减水剂行业自动化..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?140.html">减水剂行业自动化..</a></li>
         
-        <li><a href="/about/?141.html">硫磺制酸工程自动..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?141.html">硫磺制酸工程自动..</a></li>
         
-        <li><a href="/about/?142.html">甲醛生产自动化控..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?142.html">甲醛生产自动化控..</a></li>
         
-        <li><a href="/about/?143.html">轻工制药行业典型..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?143.html">轻工制药行业典型..</a></li>
         
-        <li><a href="/about/?144.html">炼油石化行业典型..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?144.html">炼油石化行业典型..</a></li>
         
-        <li><a href="/about/?100.html">新能源行业自动化..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?100.html">新能源行业自动化..</a></li>
         
-        <li><a href="/about/?99.html">医疗化工行业控制..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?99.html">医疗化工行业控制..</a></li>
         
         
       </ul>
        
     </li>
     
-    <li class="drop-menu-effect"><a href="/newslist/?109_1.html"  >工业4.0</a>
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/newslist/?109_1.html"  >工业4.0</a>
       <ul class="submenu" >
-        <li><a href="/about/?169.html">工业物联网数据采..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?169.html">工业物联网数据采..</a></li>
         
-        <li><a href="/about/?147.html">工业4.0概念简..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?147.html">工业4.0概念简..</a></li>
         
-        <li><a href="/about/?148.html">实施案例..</a></li>
+        <li><a href="http://www.qdhualing.com/about/?148.html">实施案例..</a></li>
         
         
       </ul>
        
     </li>
     
-    <li class="drop-menu-effect"><a href="/productlist/?4_1.html"  >工控产品</a>
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/productlist/?4_1.html"  >工控产品</a>
       <ul class="submenu" >
-        <li><a href="/staticPage/gkcp/dyj.html">打印机..</a></li>
+        <li><a href="/">打印机..</a></li>
         
-        <li><a href="/productlist/?173_1.html">辰麒仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?173_1.html">辰麒仪表..</a></li>
         
-        <li><a href="/productlist/?94_1.html">HCP仪器仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?94_1.html">HCP仪器仪表..</a></li>
         
-        <li><a href="/productlist/?95_1.html">上润仪器仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?95_1.html">上润仪器仪表..</a></li>
         
-        <li><a href="/productlist/?155_1.html">控制柜、配电箱..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?155_1.html">控制柜、配电箱..</a></li>
         
-        <li><a href="/productlist/?156_1.html">分析仪器..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?156_1.html">分析仪器..</a></li>
         
-        <li><a href="/productlist/?158_1.html">监控设备..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?158_1.html">监控设备..</a></li>
         
-        <li><a href="/productlist/?157_1.html">无线设备..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?157_1.html">无线设备..</a></li>
         
-        <li><a href="/productlist/?97_1.html">流量仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?97_1.html">流量仪表..</a></li>
         
-        <li><a href="/productlist/?96_1.html">称重仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?96_1.html">称重仪表..</a></li>
         
-        <li><a href="/productlist/?98_1.html">变频器..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?98_1.html">变频器..</a></li>
         
-        <li><a href="/productlist/?145_1.html">无线仪表..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?145_1.html">无线仪表..</a></li>
         
-        <li><a href="/productlist/?168_1.html">昆仑通态触摸屏..</a></li>
+        <li><a href="http://www.qdhualing.com/productlist/?168_1.html">昆仑通态触摸屏..</a></li>
         
         
       </ul>
        
     </li>
     
-    <li class="drop-menu-effect"><a href="/about/?5.html"  >技术服务</a> 
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/about/?5.html"  >技术服务</a> 
     </li>
     
-    <li class="drop-menu-effect"><a href="/about/?65.html"  >联系我们</a> 
+    <li class="drop-menu-effect"><a href="http://www.qdhualing.com/about/?65.html"  >联系我们</a> 
     </li>
     
   </ul>
@@ -891,17 +890,17 @@ $(document).ready(function(){
     <dt>
     <a href="/">首页</a>
     
-    	<a href="/about/?8.html">公司简介</a>
+    	<a href="http://www.qdhualing.com/about/?8.html">公司简介</a>
     
-    	<a href="/about/?14.html">解决方案</a>
+    	<a href="http://www.qdhualing.com/about/?14.html">解决方案</a>
     
-    	<a href="/newslist/?109_1.html">工业4.0</a>
+    	<a href="http://www.qdhualing.com/newslist/?109_1.html">工业4.0</a>
     
-    	<a href="/productlist/?4_1.html">工控产品</a>
+    	<a href="http://www.qdhualing.com/productlist/?4_1.html">工控产品</a>
     
-    	<a href="/about/?5.html">技术服务</a>
+    	<a href="http://www.qdhualing.com/about/?5.html">技术服务</a>
     
-    	<a href="/about/?65.html">联系我们</a>
+    	<a href="http://www.qdhualing.com/about/?65.html">联系我们</a>
     
     </dt>
     <dd>
