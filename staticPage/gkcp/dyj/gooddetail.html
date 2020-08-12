@@ -83,7 +83,7 @@ a {
 .des-small img {
     width: 18%;
     height: 60px;
-    margin: 10px 2px;
+    margin: 10px 0;
 }
 .guige {
 	width: 50%;
@@ -269,6 +269,32 @@ function initDetailInfo(){
 		itemHtml+="<img src=\"../../UpFiles/File/20180801143201224.jpg\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==149){
+		fonHtml+="<div style=\"font-size:1.5vw;\">激光打码机/打标机</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>紫外激光打标机</li>";
+		fonHtml+="<li></li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20170627172414939.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810143703041.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810143646120.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143737833.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143740990.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143744567.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -349,6 +375,21 @@ function BtnOK(sid) {
 			jjcdHtml+="<div style=\"text-align:center;\">";
 			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjc4Mjg2NzI1Ng==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\"><br>";
 			jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==149){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<p style=\"text-indent:0pt;\" class=\"MsoNormal\" align=\"center\">";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20180719/20180719163904_6489.jpg\">";
+			jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2MzkxMg==\" 'allowfullscreen'=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+			jjcdHtml+="</iframe>";
 			jjcdHtml+="</div>";
 		}
 	}
@@ -593,6 +634,8 @@ $(document).ready(function(){
 						
                         
                         
+                        
+                    
                     
                     
                         
@@ -604,6 +647,8 @@ $(document).ready(function(){
 						
                         
                         
+                        
+                    
                     
                         
                     
