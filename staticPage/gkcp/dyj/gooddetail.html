@@ -321,6 +321,58 @@ function initDetailInfo(){
 		itemHtml+="<img src=\"../../UpFiles/File/20180810144853447.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==105){
+		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>UV8900喷印系统</li>";
+		fonHtml+="<li>可根据客户特殊要求定制编辑软件，可安装于各种印刷机器以及相关配套设备上。</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180918093811415.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810145652041.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801144512255.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810145636588.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810145631635.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810145624385.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==106){
+		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li> UV9100喷码机</li>";
+		fonHtml+="<li>原装进口理光喷头，广泛用于单据、票据、防伪、不干胶、标签、证卡、药品监管码等应 用的理想选择。</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180918093829305.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810150037151.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801144554618.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801144558599.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810150017869.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801144605239.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -424,6 +476,47 @@ function BtnOK(sid) {
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
 			jjcdHtml+="<p style=\"text-align:center;color:#333333;font-family:微软雅黑;font-size:14px;\">";
 			jjcdHtml+="<img src=\"../../Content/kindeditor/attached/image/20190829/20190829092154_2893.jpg\" alt=\"\"> ";
+			jjcdHtml+="</p>";
+			jjcdHtml+="<p>";
+			jjcdHtml+="<br>";
+			jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==105){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<p align=\"center\">";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20180528/20180528112830_7224.jpg\">";
+			jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==106){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<p align=\"center\">";
+			jjcdHtml+="&nbsp;";
+			jjcdHtml+="</p>";
+			jjcdHtml+="<p align=\"center\">";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20180801/20180801135613_4897.jpg\"> ";
+			jjcdHtml+="</p>";
+			jjcdHtml+="<p align=\"center\">";
+			jjcdHtml+="<br>";
 			jjcdHtml+="</p>";
 			jjcdHtml+="<p>";
 			jjcdHtml+="<br>";
@@ -679,13 +772,6 @@ $(document).ready(function(){
 						
                         
                         
-                        
-                        
-                    
-                    
-                    
-                    
-                        
                     
 
                     </div>
@@ -694,8 +780,6 @@ $(document).ready(function(){
 						
                         
                         
-                        
-                    
                         
                     
                     
