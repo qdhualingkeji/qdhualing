@@ -191,6 +191,32 @@ function initDetailInfo(){
 			itemHtml+="<img src=\"../../UpFiles/File/20180810141315650.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==62){
+		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>V280Plus喷码机</li>";
+		fonHtml+="<li>新一代Plus机型采用全新打印模式、全新自主开发操作系统、墨路结构全新优化、运行更加稳定高效</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200417100423814.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200417100402798.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810141657885.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810141724885.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810141736572.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810141744072.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -214,14 +240,32 @@ function BtnOK(sid) {
 	if(id==61){
 		if(sid==1){
 			jjcdHtml+="<div style=\"text-align:center;\" align=\"center\">";
-			jjcdHtml+="&nbsp;&nbsp;";
-			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417095626_0017.jpg\">";
+				jjcdHtml+="&nbsp;&nbsp;";
+				jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417095626_0017.jpg\">";
 			jjcdHtml+="</div>";
 		}
 		else if(sid==3){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
-			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTM5MTIwMA==\" ?allowfullscreen?=\"\" width=\"90%\" height=\"300\" frameborder=\"0\">";
-			jjcdHtml+="</iframe>";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTM5MTIwMA==\" ?allowfullscreen?=\"\" width=\"90%\" height=\"300\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==62){
+		if(sid==1){
+			jjcdHtml+="<div style=\"margin:0px;padding:0px;\" class=\"bdsharebuttonbox bdshare-button-style0-16\" align=\"center\">";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417100551_0330.jpg\"><br>";
+			jjcdHtml+="&nbsp;&nbsp;";
+			jjcdHtml+="</div>";
+			jjcdHtml+="<p>";
+			jjcdHtml+="<span style=\"font-family:&quot;color:#000000;\"><strong></strong></span> ";
+			jjcdHtml+="</p>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjc4Mjk5MTg1Ng==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\"><br>";
+			jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
 		}
 	}
@@ -463,9 +507,17 @@ $(document).ready(function(){
                 <div class="show" id="show">
                     <div id="fon" style="float:right;width:20vw;margin-top:4vw;">
                         
+						
+                        
+                    
+
                     </div>
                     <div class="item" id="item">
                         
+						
+                        
+                    
+
                     </div>
                     <div class="clear"></div>
 
@@ -485,6 +537,8 @@ $(document).ready(function(){
                     <div style="text-align:center;width:100%;">
 
                         
+                        
+                    
 
                     </div>
                 </div>
