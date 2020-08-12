@@ -56,7 +56,7 @@ a {
     float: left;
 }
 .col-sm-8 {
-    width: 66.66666667%;
+    width: 63.3%;
 }
 .good_thing {
     margin-left: 20px;
@@ -157,6 +157,63 @@ $(".topn").toggle(function(){
 	$(this).next("ul").hide();
 })
 
+});
+
+function BtnOK(sid) {
+	var jianjChildDiv=$(".jianj div");
+	jianjChildDiv.empty();
+	var jjcdHtml="";
+	var id = $("#inputid").val();
+	if(id==61){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\" align=\"center\">";
+			jjcdHtml+="&nbsp;&nbsp;";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417095626_0017.jpg\">";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTM5MTIwMA==\" ?allowfullscreen?=\"\" width=\"90%\" height=\"300\" frameborder=\"0\">";
+			jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	jianjChildDiv.html(jjcdHtml);
+}
+
+function dropMenu(obj){
+	$(obj).each(function(){
+		var theSpan = $(this);
+		var theMenu = theSpan.find(".submenu");
+		var tarHeight = theMenu.height();
+		theMenu.css({height:0,opacity:0});
+		
+		var t1;
+		
+		function expand() {
+			clearTimeout(t1);
+			theSpan.find('a').addClass("selected");
+			theMenu.stop().show().animate({height:tarHeight,opacity:1},0);
+			
+		}
+		
+		function collapse() {
+			clearTimeout(t1);
+			t1 = setTimeout(function(){
+				theSpan.find('a').removeClass("selected");
+				theMenu.stop().animate({height:0,opacity:0},0,function(){
+					$(this).css({display:"none"});
+				});
+			}, 0);
+		}
+		
+		theSpan.hover(expand, collapse);
+		theMenu.hover(expand, collapse);
+	});
+}
+
+$(document).ready(function(){
+	dropMenu(".drop-menu-effect");
 });
 </script>
 <style type="text/css">
@@ -299,56 +356,6 @@ $(".topn").toggle(function(){
 </div>
 <!--nav部分-end -->
 
-<script>
-function BtnOK(sid) {
-	var id = $("#inputid").val();
-	$.post("/Website/AjaxDetail", { id: id, sid: sid }, function (data) {
-		$(".jianj div").html("");
-		var demo = $(".jianj div");
-		if (data != "") {
-			var htmls = "";
-			var html = "<div style='text-align:center;width:100%;'>" + data + "</div>";
-			htmls = htmls + html;
-		}
-		demo.html(htmls)
-	})
-}
-
-function dropMenu(obj){
-	$(obj).each(function(){
-		var theSpan = $(this);
-		var theMenu = theSpan.find(".submenu");
-		var tarHeight = theMenu.height();
-		theMenu.css({height:0,opacity:0});
-		
-		var t1;
-		
-		function expand() {
-			clearTimeout(t1);
-			theSpan.find('a').addClass("selected");
-			theMenu.stop().show().animate({height:tarHeight,opacity:1},0);
-			
-		}
-		
-		function collapse() {
-			clearTimeout(t1);
-			t1 = setTimeout(function(){
-				theSpan.find('a').removeClass("selected");
-				theMenu.stop().animate({height:0,opacity:0},0,function(){
-					$(this).css({display:"none"});
-				});
-			}, 0);
-		}
-		
-		theSpan.hover(expand, collapse);
-		theMenu.hover(expand, collapse);
-	});
-}
-
-$(document).ready(function(){
-	dropMenu(".drop-menu-effect");
-});
-</script>
 <div class="container-fluid">
 	<div class="row" id="picture">
 		<img src="../../img/202008110001.png">
@@ -446,11 +453,10 @@ $(document).ready(function(){
                 </div>
                 <div class="jianj">
                     <div style="text-align:center;width:100%;">
-                        <div style="text-align:center;" align="center">
-	&nbsp;&nbsp;<img alt="" src="../../Content/kindeditor/attached/image/20200417/20200417095626_0017.jpg"> 
-</div>
-                    </div>
 
+                        
+
+                    </div>
                 </div>
             </div>
         </div>
