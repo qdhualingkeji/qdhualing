@@ -144,22 +144,69 @@ $(function(){
 		$(".amore").attr("href","/about/?14.html")
 	}else{
 		$(".amore").attr("href","/newslist/?109_1.html")
+	}
+
+	var index = $(tabTitle).index( $(this) );
+	$(tabContent).eq(index).siblings(tabContent).hide().end().show();
+	});
+
+	$(".topn").toggle(function(){
+		$(this).next("ul").show();
+	},function(){
+		$(this).next("ul").hide();
+	})
+
+	initDetailInfo();
+});
+
+function initDetailInfo(){
+	var fonDiv=$("#show #fon");
+	var itemDiv=$("#show #item");
+	var fonHtml="";
+	var itemHtml="";
+	var id=getQueryString("id");
+	if(id==61){
+		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
+		fonHtml+="<ul>";
+			fonHtml+="<li>V150Plus喷码机</li>";
+			fonHtml+="<li>稳定高速、维护更简单，智能故障提醒功能。</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417094141204.png\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417095208423.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810141239947.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810141250166.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810141304275.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810141315650.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	$("#inputid").val(id)
+	fonDiv.html(fonHtml);
+	itemDiv.html(itemHtml);
+	BtnOK(1);
 }
 
-
-var index = $(tabTitle).index( $(this) );
-$(tabContent).eq(index).siblings(tabContent).hide().end().show();
-});
-
-$(".topn").toggle(function(){
-	$(this).next("ul").show();
-},function(){
-	$(this).next("ul").hide();
-})
-
-});
-
 function BtnOK(sid) {
+	if(sid==1){
+		$("#guige div").eq(0).addClass("guige_bg");
+		$("#guige div").eq(1).removeClass("guige_bg");
+	}
+	else if(sid==3){
+		$("#guige div").eq(0).removeClass("guige_bg");
+		$("#guige div").eq(1).addClass("guige_bg");
+	}
+
 	var jianjChildDiv=$(".jianj div");
 	jianjChildDiv.empty();
 	var jjcdHtml="";
@@ -172,8 +219,8 @@ function BtnOK(sid) {
 			jjcdHtml+="</div>";
 		}
 		else if(sid==3){
-			jjcdHtml+="<div style="text-align:center;width:100%;">";
-			jjcdHtml+="<iframe src="http://player.youku.com/embed/XMzgxNTM5MTIwMA==" ?allowfullscreen?="" width="90%" height="300" frameborder="0">";
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzgxNTM5MTIwMA==\" ?allowfullscreen?=\"\" width=\"90%\" height=\"300\" frameborder=\"0\">";
 			jjcdHtml+="</iframe>";
 			jjcdHtml+="</div>";
 		}
@@ -210,6 +257,12 @@ function dropMenu(obj){
 		theSpan.hover(expand, collapse);
 		theMenu.hover(expand, collapse);
 	});
+}
+
+function getQueryString(name){
+	 var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+	 var r = window.location.search.substr(1).match(reg);
+	 if(r!=null)return  unescape(r[2]); return null;
 }
 
 $(document).ready(function(){
@@ -372,7 +425,7 @@ $(document).ready(function(){
 	</div>
 </div>
 
-	<div class="container">
+	<div class="container" style="height: 2788px;">
         <div class="row" style="margin-bottom: 50px;">
             <div class="col-sm-3 good_list">
 				<div>
@@ -407,40 +460,17 @@ $(document).ready(function(){
 				</div>
             </div>
             <div class="col-sm-8 good_thing">
-                <div class="show">
+                <div class="show" id="show">
                     <div id="fon" style="float:right;width:20vw;margin-top:4vw;">
-                        <div style="font-size:1.5vw;">小字符喷码机</div>
-                        <ul>
-                            <li>V150Plus喷码机</li>
-                            <li>稳定高速、维护更简单，智能故障提醒功能。</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <a class="big-photo">
-                            <img src="../../UpFiles/File/20200417094141204.png" alt="big">
-                        </a>
                         
-                            <a class="des-small">
-                                <img src="../../UpFiles/File/20200417095208423.jpg" alt="small">
-                            </a>
-
-                            <a class="des-small">
-                                <img src="../../UpFiles/File/20180810141239947.jpg" alt="small">
-                            </a>
-                                                    <a class="des-small">
-                                <img src="../../UpFiles/File/20180810141250166.png" alt="small">
-                            </a>
-                                                    <a class="des-small">
-                                <img src="../../UpFiles/File/20180810141304275.png" alt="small">
-                            </a>
-                                                    <a class="des-small">
-                                <img src="../../UpFiles/File/20180810141315650.png" alt="small">
-                            </a>
+                    </div>
+                    <div class="item" id="item">
+                        
                     </div>
                     <div class="clear"></div>
 
                 </div>
-                <div class="guige">
+                <div class="guige" id="guige">
                     <div class="guige_bg" onclick="BtnOK(1)">
                         <input id="inputid" style="width:100px;" type="hidden" value="61">
                         产品详情
@@ -461,6 +491,43 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
+
+<!--foot-->
+<script type="text/javascript" src="/inc/AspCms_Statistics.asp"></script><!--网页底部-->
+<div class="footer">
+  <dl>
+    <dt>
+    <a href="http://www.qdhualing.com">首页</a>
+    
+    	<a href="http://www.qdhualing.com/about/?8.html">公司简介</a>
+    
+    	<a href="http://www.qdhualing.com/about/?14.html">解决方案</a>
+    
+    	<a href="http://www.qdhualing.com/newslist/?109_1.html">工业4.0</a>
+    
+    	<a href="http://www.qdhualing.com/productlist/?4_1.html">工控产品</a>
+    
+    	<a href="http://www.qdhualing.com/about/?5.html">技术服务</a>
+    
+    	<a href="http://www.qdhualing.com/about/?65.html">联系我们</a>
+    
+    </dt>
+    <dd>
+        <h4>青岛华凌科技有限公司 qdhualing.com <a href="http://www.beian.miit.gov.cn" style="color: #2a2a2a;">鲁ICP备15031378号</a></h4>
+    </dd>
+    <div class="clear"></div>
+  </dl>
+</div>
+
+<div id="foot" style=" display:none"> 
+   <ul>
+     <li>版权所有： 青岛华凌科技有限公司   &#160;&#160;  &#160;&#160;<a href="/www.miibeian.gov.cn/" target=_blank>鲁ICP备15031378号</a> </li>
+   	 <li> 电话：0532-55588351   &#160;&#160; 传真：0532-55588352 &#160;&#160;  邮箱：<a href="mailto:qdhualing@126.com">qdhualing@126.com  </a></li>
+     <li> 商话1：15712773653  商话2：15315019919    &#160;&#160;地址：山东省青岛市黄岛区双珠路288号东方金石大厦8F </li>
+   </ul>
+   <img src="http://www.qdhualing.com/templates/green/images/FOOT11.jpg" style="position:relative; top:8px; left:10px;" /> 
+</div>
+<!--end foot-->
 
 </div>
  </body>
