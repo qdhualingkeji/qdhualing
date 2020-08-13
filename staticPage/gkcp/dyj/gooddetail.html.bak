@@ -116,6 +116,9 @@ a {
 .jianj div {
     font-size: 8px;
 }
+.space_div{
+	width:100%;height:50px;clear: both;
+}
 </style>
 <script>
 var _hmt = _hmt || [];
@@ -714,7 +717,7 @@ $(document).ready(function(){
     
     <li class="drop-menu-effect"><a href="http://www.qdhualing.com/productlist/?4_1.html"  >工控产品</a>
       <ul class="submenu" >
-        <li><a href="/">打印机..</a></li>
+        <li><a href="http://www.qdhualing.com/staticPage/gkcp/dyj/goods.html?id=7">打印机..</a></li>
         
         <li><a href="http://www.qdhualing.com/productlist/?173_1.html">辰麒仪表..</a></li>
         
@@ -766,13 +769,14 @@ $(document).ready(function(){
 	<div class="row" id="pt">
 		<img src="../../img/202008110003.png" alt="">
 		<span>首页&gt;</span>
-		<span>产品展示&gt;</span>
+		<span>工控产品&gt;</span>
+		<span>打印机&gt;</span>
 		<span>小字符喷码器</span>
 	</div>
 </div>
 
-	<div class="container" style="height: 2788px;">
-        <div class="row" style="margin-bottom: 50px;">
+	<div class="container">
+        <div class="row">
             <div class="col-sm-3 good_list">
 				<div>
 					<a href="goods.html?id=7">
@@ -780,27 +784,27 @@ $(document).ready(function(){
 					</a>
 				</div>
 				<div>
-					<a href="goods?id=8">
+					<a href="goods.html?id=8">
 						激光打码机/打标机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="goods?id=9">
+					<a href="goods.html?id=9">
 						高解析喷码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="goods?id=10">
+					<a href="goods.html?id=10">
 						大字符喷码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="goods?id=54">
+					<a href="goods.html?id=54">
 						UV可变数据喷印系统<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="goods?id=100">
+					<a href="goods.html?id=100">
 						R系列热转印智能打码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
@@ -855,6 +859,8 @@ $(document).ready(function(){
             </div>
         </div>
     </div>
+
+	<div class="space_div"></div>
 
 	<!--foot-->
 	<script type="text/javascript" src="/inc/AspCms_Statistics.asp"></script><!--网页底部-->
