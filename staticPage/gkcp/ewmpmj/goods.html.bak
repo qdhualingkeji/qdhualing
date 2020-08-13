@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
  <head>
-<title>首页-工控产品-打印机</title>
+<title>首页-工控产品-二维码喷码机</title>
 <meta name="Keywords" content="" >
 <meta name="Description" content="" >
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -41,7 +41,6 @@ objImg.width = w;
 .parent{ font-weight:700}
 .sub{ text-indent:5px; }
 .hover{ color:#a71d0f}
-
 .container {
     width: 1170px;
 	margin-right: auto;
@@ -596,9 +595,8 @@ $(document).ready(function(){
 <div class="container">
 	<div class="row" id="pt">
 		<img src="../../img/202008110003.png" alt="">
-		<span>首页&gt;</span>
 		<span>工控产品&gt;</span>
-		<span>打印机</span>
+		<span>二维码喷码机</span>
 	</div>
 </div>
 
