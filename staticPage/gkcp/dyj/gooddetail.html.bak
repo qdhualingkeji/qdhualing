@@ -156,7 +156,7 @@ $(function(){
 		$(this).next("ul").hide();
 	})
 
-	//initDetailInfo();
+	initDetailInfo();
 });
 
 function initDetailInfo(){
@@ -775,32 +775,32 @@ $(document).ready(function(){
         <div class="row" style="margin-bottom: 50px;">
             <div class="col-sm-3 good_list">
 				<div>
-					<a href="/website/goods?id=7">
+					<a href="goods.html?id=7">
 						小字符喷码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="/website/goods?id=8">
+					<a href="goods?id=8">
 						激光打码机/打标机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="/website/goods?id=9">
+					<a href="goods?id=9">
 						高解析喷码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="/website/goods?id=10">
+					<a href="goods?id=10">
 						大字符喷码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="/website/goods?id=54">
+					<a href="goods?id=54">
 						UV可变数据喷印系统<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
 				<div>
-					<a href="/website/goods?id=100">
+					<a href="goods?id=100">
 						R系列热转印智能打码机<img src="../../img/logo3.png" alt="">
 					</a>
 				</div>
