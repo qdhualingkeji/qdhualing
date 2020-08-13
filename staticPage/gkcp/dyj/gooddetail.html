@@ -373,6 +373,32 @@ function initDetailInfo(){
 		itemHtml+="<img src=\"../../UpFiles/File/20180801144605239.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==270){
+		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>UV6810喷码机</li>";
+		fonHtml+="<li>高效数据传输 集成系统电路，承印介质广泛 设备扩展方便，喷头精度高 精准稳定负压，速度与内容兼得 质量优异</li>";
+		fonHtml+="</ul>";
+                        
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829155513383.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829160155195.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829160158101.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829160201429.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829160205164.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20190829160208211.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	$("#inputid").val(id)
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
@@ -527,6 +553,20 @@ function BtnOK(sid) {
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
 			jjcdHtml+="<div style=\"text-align:center;\">";
 			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzc4MzYwMzUzMg==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+			jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==270){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<img src=\"../../Content/kindeditor/attached/image/20190829/20190829155704_3518.jpg\" alt=\"\"> ";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<embed src=\"https://v.youku.com/v_show/id_XMzgxNDQ4ODY1Mg==.html?spm=a2h9p.12366999.app.5~5!2~5~5!2~5~5!2~5!3~5~5~5~5~5~21~22~TR!9~TD!2~5~5!2~H4~A\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
 			jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
 		}
@@ -773,6 +813,8 @@ $(document).ready(function(){
                         
                         
                     
+                        
+                    
 
                     </div>
                     <div class="item" id="item">
@@ -780,10 +822,7 @@ $(document).ready(function(){
 						
                         
                         
-                        
                     
-                    
-                        
                     
                     
 
@@ -806,6 +845,8 @@ $(document).ready(function(){
                     <div style="text-align:center;width:100%;">
 
                         
+                        
+                    
                         
                     
 
