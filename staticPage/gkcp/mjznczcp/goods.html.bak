@@ -91,14 +91,6 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
-	else if(id==100){
-		itemHtml+="<div>";
-			itemHtml+="<a>";
-				itemHtml+="<img src=\"../../UpFiles/File/20180918093443165.jpg\">";
-				itemHtml+="<p>TTO热转印设备</p>";
-			itemHtml+="</a>";
-		itemHtml+="</div>";
-	}
 	gpList.append(itemHtml);
 }
 
