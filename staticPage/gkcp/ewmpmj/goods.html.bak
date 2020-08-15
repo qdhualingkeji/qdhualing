@@ -495,7 +495,7 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=282\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20200418133439564.jpg\">";
 				itemHtml+="<p>T800系列高解析喷码设备</p>";
 			itemHtml+="</a>";
@@ -503,7 +503,7 @@ function BtnOK(id){
 	}
 	else if(id==10){
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=75\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20180918092917180.jpg\">";
 				itemHtml+="<p>大字符喷码机</p>";
 			itemHtml+="</a>";
@@ -537,7 +537,7 @@ function BtnOK(id){
 	}
 	else if(id==100){
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=196\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20180918093443165.jpg\">";
 				itemHtml+="<p>TTO热转印设备</p>";
 			itemHtml+="</a>";
@@ -655,14 +655,14 @@ $(document).ready(function(){
             <div class="swiper-container swiper-container-horizontal">
                 <div class="swiper-wrapper">
                         <div class="swiper-slide swiper-slide-active" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=196">
                                 <img src="../../UpFiles/File/20180918093443165.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 TTO热转印设备
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=196">
                                     查看
                                 </a>
                             </div>
@@ -720,66 +720,66 @@ $(document).ready(function(){
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=75">
                                 <img src="../../UpFiles/File/20180918092917180.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 大字符喷码机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=75">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=76">
                                 <img src="../../UpFiles/File/20200417105952298.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 T300系列高解析喷码设备
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=76">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=78">
                                 <img src="../../UpFiles/File/20170317085443100.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 MDPS多功能数据打印系统
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=78">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=79">
                                 <img src="../../UpFiles/File/20200417105114486.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 S系列手持喷码机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=79">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=282">
                                 <img src="../../UpFiles/File/20200418133439564.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 T800系列高解析喷码设备
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=282">
                                     查看
                                 </a>
                             </div>
@@ -850,46 +850,46 @@ $(document).ready(function(){
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=66">
                                 <img src="../../UpFiles/File/20200417103404658.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 v380Plus喷码机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=66">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=68">
                                 <img src="../../UpFiles/File/20200417103712533.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 V380P白墨机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=68">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=72">
                                 <img src="../../UpFiles/File/20200417104212251.jpg" alt="">
                             </a>
                             <div class="layer_1">
                                 V220Plus喷码机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=72">
                                     查看
                                 </a>
                             </div>
                         </div>
                         <div class="swiper-slide" style="width: 234px;">
-                            <a>
+                            <a href="goodDetail.html?id=145">
                                 <img src="../../UpFiles/File/20200417104742829.jpg" alt="">
                             </a>
                             <div class="layer_1">
