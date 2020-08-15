@@ -156,7 +156,7 @@ $(function(){
 		$(this).next("ul").hide();
 	})
 
-	initDetailInfo();
+	//initDetailInfo();
 });
 
 function initDetailInfo(){
@@ -295,6 +295,32 @@ function initDetailInfo(){
 			itemHtml+="<img src=\"../../UpFiles/File/20180810142554150.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==145){
+		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>v260Plus喷码机</li>";
+		fonHtml+="<li>自动喷头清洗、智能故障提醒，800字符/秒喷印速度，能满足各行业喷码需求。</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200417104742829.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200417104731673.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143600708.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810142945448.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810142737369.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143657880.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	else if(id==73){
 		fonHtml+="<div style=\"font-size:1.5vw;\">激光打码机/打标机</div>";
 		fonHtml+="<ul>";
@@ -371,6 +397,58 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 		itemHtml+="<img src=\"../../UpFiles/File/20180801143744567.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==76){
+		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>T300系列高解析喷码设备</li>";
+		fonHtml+="<li>打印图像的高度可以在最大12.5mm到100mm之间、各种型号打印机专为满足您的各种喷码、打印和产品ID的应用需求</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417105952298.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417105944017.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143308256.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143312208.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143317302.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810143938463.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==78){
+		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
+		fonHtml+="<ul>";
+		fonHtml+="<li>MDPS多功能数据打印系统</li>";
+		fonHtml+="<li>MDPS喷印系统</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20170317085443100.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810144135478.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143353896.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143358474.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180810144123385.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20180801143405646.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
 	else if(id==104){
@@ -591,10 +669,32 @@ function BtnOK(sid) {
 		}
 		else if(sid==3){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
-			jjcdHtml+="<div style=\"text-align:center;\">";
-			jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173221_8173.png\">";
-			jjcdHtml+="<br>";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173221_8173.png\">";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==145){
+		if(sid==1){
+			jjcdHtml+="<p style=\"text-align:center;\">";
+				jjcdHtml+="<span style=\"font-size:14px;\">";
+					jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417104814_2517.jpg\">";
+					jjcdHtml+="<br>";
+					jjcdHtml+="&nbsp;&nbsp;&nbsp;&nbsp;";
+				jjcdHtml+="</span>";
+			jjcdHtml+="</p>";
+			jjcdHtml+="<div>";
+				jjcdHtml+="<br>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\"http://221.234.36.59:8055/Content/kindeditor/attached/image/20170627/20170627173309_8957.png\">";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
 		}
 	}
@@ -641,6 +741,39 @@ function BtnOK(sid) {
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
 			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2MzkxMg==\" 'allowfullscreen'=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
 			jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==76){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;\">";
+			jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200417/20200417105841_2830.jpg\">";
+			jjcdHtml+="<br>";
+			jjcdHtml+="&nbsp;";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+			jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2NjA2MA==\" ?allowfullscreen?=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+			jjcdHtml+="</iframe>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==78){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p style=\"text-align:center;\">";
+					jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20180528/20180528113041_6131.jpg\"> ";
+				jjcdHtml+="</p>";
+				jjcdHtml+="<p>";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<iframe src=\"http://player.youku.com/embed/XMzc4MzE2NjA2MA==\" 'allowfullscreen'=\"\" width=\"510\" height=\"498\" frameborder=\"0\">";
+				jjcdHtml+="</iframe>";
 			jjcdHtml+="</div>";
 		}
 	}
@@ -961,6 +1094,8 @@ $(document).ready(function(){
 						
                         
                         
+                        
+                    
                     
                         
                     
@@ -971,8 +1106,9 @@ $(document).ready(function(){
 						
                         
                         
+                        
                     
-                    
+                        
                     
                     
 
@@ -997,6 +1133,7 @@ $(document).ready(function(){
                         
                         
                         
+						
                     
 
                     </div>

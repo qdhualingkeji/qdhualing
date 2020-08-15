@@ -441,13 +441,13 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=72\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20200417104212251.jpg\">";
 				itemHtml+="<p>V220Plus喷码机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=145\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20200417104742829.jpg\">";
 				itemHtml+="<p>v260Plus喷码机</p>";
 			itemHtml+="</a>";
@@ -477,7 +477,7 @@ function BtnOK(id){
 	}
 	else if(id==9){
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=76\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20200417105952298.jpg\">";
 				itemHtml+="<p>T300系列高解析喷码设备</p>";
 			itemHtml+="</a>";
