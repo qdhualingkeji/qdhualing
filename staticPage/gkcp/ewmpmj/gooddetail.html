@@ -451,6 +451,58 @@ function initDetailInfo(){
 		itemHtml+="<img src=\"../../UpFiles/File/20180801143405646.png\" alt=\"small\">";
 		itemHtml+="</a>";
 	}
+	else if(id==79){
+		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
+		fonHtml+="<ul>";
+			fonHtml+="<li>S系列手持喷码机</li>";
+			fonHtml+="<li>360度全方位喷码，操作简便、可喷条形码和二维码。</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417105114486.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20200417105104142.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143432442.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180810144401025.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143440083.png\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/20180801143443317.png\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
+	else if(id==282){
+		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
+		fonHtml+="<ul>";
+			fonHtml+="<li>T800系列高解析喷码设备</li>";
+			fonHtml+="<li>自带7寸触摸屏工控机、打印高度12.7mm-101.6mm、打印速度300*150dpi时可达90m/min</li>";
+		fonHtml+="</ul>";
+
+		itemHtml+="<a class=\"big-photo\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418133439564.jpg\" alt=\"big\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418133425486.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418134717689.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418134555064.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+=" <a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418134606798.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+		itemHtml+="<a class=\"des-small\">";
+		itemHtml+="<img src=\"../../UpFiles/File/20200418134616423.jpg\" alt=\"small\">";
+		itemHtml+="</a>";
+	}
 	else if(id==104){
 		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
 		fonHtml+="<ul>";
@@ -777,6 +829,36 @@ function BtnOK(sid) {
 			jjcdHtml+="</div>";
 		}
 	}
+	else if(id==79){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p style=\"text-align:center;color:#323232;font-family:&quot;&quot;;\">";
+					jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20190829/20190829163114_2425.jpg\">";
+					jjcdHtml+="&nbsp;";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMjk5MTU4MTg4NA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+					jjcdHtml+="<br>";
+				jjcdHtml+="</div>";
+			jjcdHtml+="</div>";
+		}
+	}
+	else if(id==282){
+		if(sid==1){
+			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
+				jjcdHtml+="<p align=\"center\">";
+					jjcdHtml+="<img alt=\"\" src=\"../../Content/kindeditor/attached/image/20200418/20200418134223_3143.jpg\">";
+				jjcdHtml+="</p>";
+			jjcdHtml+="</div>";
+		}
+		else if(sid==3){
+			jjcdHtml+="";
+		}
+	}
 	else if(id==104){
 		if(sid==1){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
@@ -1096,7 +1178,6 @@ $(document).ready(function(){
                         
                         
                     
-                    
                         
                     
 
@@ -1130,8 +1211,6 @@ $(document).ready(function(){
                 <div class="jianj">
                     <div style="text-align:center;width:100%;">
 
-                        
-                        
                         
 						
                     

@@ -483,13 +483,13 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=78\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20170317085443100.jpg\">";
 				itemHtml+="<p>MDPS多功能数据打印系统</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a>";
+			itemHtml+="<a href=\"gooddetail.html?id=79\">";
 				itemHtml+="<img src=\"../../UpFiles/File/20200417105114486.jpg\">";
 				itemHtml+="<p>S系列手持喷码机</p>";
 			itemHtml+="</a>";
