@@ -45,21 +45,28 @@ function BtnOK(id){
 	gpList.empty();
 	var itemHtml="";
 	if(id==1){
+
+	}
+	else if(id==2){
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"gooddetail.html?id=1\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008130001.jpg\">";
 				itemHtml+="<p>CVR-100UC身份证读取器</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
-		//http://www.qianjingkeji.com/huashiyueduqi/CVR-100UC.html
-	}
-	else if(id==2){
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"gooddetail.html?id=7\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\">";
+				itemHtml+="<p>智能道闸机</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"gooddetail.html?id=2\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008130002.jpeg\">";
 				itemHtml+="<p>道闸雷达</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
+		//http://www.qianjingkeji.com/huashiyueduqi/CVR-100UC.html
 	}
 	else if(id==3){
 		itemHtml+="<div>";
@@ -83,7 +90,7 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
-	else if(id==5){
+	else if(id==6){
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"gooddetail.html?id=6\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008130006.jpg\">";
@@ -408,19 +415,22 @@ $(".topn").toggle(function(){
 	<div class="container" id="wptt">
 		<div class="row" id="good_nav">
 			<div class="item_div unSelected" id="item_div1" onclick="BtnOK(1)">
-				身份证读取器
+				LED大屏
 			</div>
 			<div class="item_div unSelected" id="item_div2" onclick="BtnOK(2)">
-				道闸雷达
+				门禁产品
 			</div>
 			<div class="item_div unSelected" id="item_div3" onclick="BtnOK(3)">
-				IC读卡器
+				自动收发卡系列
 			</div>
 			<div class="item_div unSelected" id="item_div4" onclick="BtnOK(4)">
-				二维码手持终端和扫描终端
+				二维码流程控制产品
 			</div>
 			<div class="item_div unSelected" id="item_div5" onclick="BtnOK(5)">
-				红外光栅标准型  
+				地磅产品
+			</div>
+			<div class="item_div unSelected" id="item_div6" onclick="BtnOK(6)">
+				其他设备
 			</div>
 		</div>
 	</div>
