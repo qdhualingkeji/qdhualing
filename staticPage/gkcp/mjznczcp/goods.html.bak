@@ -55,7 +55,7 @@ function BtnOK(id){
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 		itemHtml+="<div>";
-			itemHtml+="<a href=\"gooddetail.html?id=2\">";
+			itemHtml+="<a href=\"gooddetail.html?id=7\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\">";
 				itemHtml+="<p>智能道闸机</p>";
 			itemHtml+="</a>";
@@ -73,6 +73,12 @@ function BtnOK(id){
 			itemHtml+="<a href=\"gooddetail.html?id=3\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008130003.jpg\">";
 				itemHtml+="<p>RF-35LT规格IC读卡器</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"gooddetail.html?id=8\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008180001.jpg\">";
+				itemHtml+="<p>CRT-591-MR01-EBNJ 收发卡机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
