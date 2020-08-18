@@ -77,7 +77,7 @@ function BtnOK(id){
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"gooddetail.html?id=8\">";
-				itemHtml+="<img src=\"../../UpFiles/File/202008180001.jpg\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008180001.png\">";
 				itemHtml+="<p>CRT-591-MR01-EBNJ 收发卡机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
@@ -101,6 +101,12 @@ function BtnOK(id){
 			itemHtml+="<a href=\"gooddetail.html?id=6\">";
 				itemHtml+="<img src=\"../../UpFiles/File/202008130006.jpg\">";
 				itemHtml+="<p>互射式红外光栅防盗探测器</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"gooddetail.html?id=8\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\">";
+				itemHtml+="<p>经销出入口补光抓拍一体机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
