@@ -896,7 +896,7 @@ $(document).ready(function(){
                                 v260Plus喷码机
                             </div>
                             <div class="layer_2">
-                                <a>
+                                <a href="goodDetail.html?id=145">
                                     查看
                                 </a>
                             </div>

@@ -1018,9 +1018,9 @@ function BtnOK(sid) {
 		}
 		else if(sid==3){
 			jjcdHtml+="<div style=\"text-align:center;width:100%;\">";
-			jjcdHtml+="<div style=\"text-align:center;\">";
-			jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzE5MDU0NTUwMA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
-			jjcdHtml+="</div>";
+				jjcdHtml+="<div style=\"text-align:center;\">";
+					jjcdHtml+="<embed src=\"http://player.youku.com/player.php/sid/XMzE5MDU0NTUwMA==/v.swf\" type=\"application/x-shockwave-flash\" quality=\"high\" width=\"550\" height=\"400\">";
+				jjcdHtml+="</div>";
 			jjcdHtml+="</div>";
 		}
 	}
