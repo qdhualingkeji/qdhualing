@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <title>首页-工控产品-门禁智能称重产品-详情</title>
-<meta name="Keywords" content="" >
+<meta name="Keywords" content="LED、屏幕、门禁、收发卡、二维码、地磅、设备、光栅、探测器、一体机、读取器、读卡器、道闸机、道闸、雷达
+、扫描器" >
 <meta name="Description" content="" >
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="http://www.qdhualing.com/Templates/green/css/style.css"/>
@@ -231,7 +232,7 @@ function initDetailInfo(){
 	else if(id==3){
 		fonHtml+="<div style=\"font-size:1.5vw;\">明华IC读卡器</div>";
 		fonHtml+="<ul>";
-		fonHtml+="<li>RF-35LT 明华IC读卡器</li>";
+		fonHtml+="<li>CQ-35LT 明华IC读卡器</li>";
 		fonHtml+="</ul>";
 
 		itemHtml+="<a class=\"big-photo\">";
