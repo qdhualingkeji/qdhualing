@@ -257,7 +257,7 @@ function initDetailInfo(){
 	else if(id==8){
 		fonHtml+="<div style=\"font-size:1.5vw;\">收发卡机</div>";
 		fonHtml+="<ul>";
-		fonHtml+="<li>CRT-591-MR01-EBNJ 收发卡机</li>";
+		fonHtml+="<li>CQ-591-MR01-EBNJ 收发卡机</li>";
 		fonHtml+="</ul>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -298,10 +298,10 @@ function initDetailInfo(){
 		fonHtml+="</ul>";
 
 		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" alt=\"big\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" alt=\"big\" style=\"width: 277px;height:171px;margin-top: 52px;margin-bottom: 53px;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" alt=\"small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" alt=\"small\" style=\"width: 277px;height:171px;margin-top: 52px;margin-bottom: 53px;\">";
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
