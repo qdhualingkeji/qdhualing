@@ -47,9 +47,15 @@ function BtnOK(id){
 	var itemHtml="";
 	if(id==1){
 		itemHtml+="<div>";
-			itemHtml+="<a>";
-				itemHtml+="<img src=\"../../UpFiles/File/202008200001.png\">";
-				itemHtml+="<p>LED显示屏</p>";
+			itemHtml+="<a href=\"gooddetail.html?id=10\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008200006.jpg\">";
+				itemHtml+="<p>户内p10单色led显示屏</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"gooddetail.html?id=11\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008250003.jpg\">";
+				itemHtml+="<p>户外p10单色led显示屏</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
 	}
@@ -111,7 +117,7 @@ function BtnOK(id){
 		itemHtml+="</div>";
 		itemHtml+="<div>";
 			itemHtml+="<a href=\"gooddetail.html?id=9\">";
-				itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" style=\"width: 277px;height:205px;margin-top: 52px;margin-bottom: 53px;\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008180073.png\" style=\"width: 277px;height:205px;margin-top: 36px;margin-bottom: 36px;\">";
 				itemHtml+="<p>经销出入口补光抓拍一体机</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
