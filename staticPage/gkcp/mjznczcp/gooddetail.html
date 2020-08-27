@@ -29,6 +29,9 @@ a {
     margin: 0px;
     font-size: 13px;
 }
+#pt .par_pos_nav_span a{
+	color: #2b2b2b;
+}
 #pt span:last-child {
     color: #0067B2;
 }
@@ -164,12 +167,19 @@ $(function(){
 });
 
 function initDetailInfo(){
+	var ppnSpan=$("#par_pos_nav_span");
+	var cpnSpan=$("#chi_pos_nav_span");
 	var fonDiv=$("#show #fon");
 	var itemDiv=$("#show #item");
+	var ppnHtml="";
+	var cpnHtml="";
 	var fonHtml="";
 	var itemHtml="";
 	var id=getQueryString("id");
 	if(id==10){
+		ppnHtml+="<a href=\"goods.html?id=1\">LED大屏</a>";
+		cpnHtml+="75室内双色led显示屏";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">75室内双色led显示屏</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -192,6 +202,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==11){
+		ppnHtml+="<a href=\"goods.html?id=1\">LED大屏</a>";
+		cpnHtml+="户外p10单色led显示屏";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">户外p10单色led显示屏</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -211,16 +224,19 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==1){
+		ppnHtml+="<a href=\"goods.html?id=2\">门禁产品</a>";
+		cpnHtml+="身份证读取器";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">身份证读取器</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>型号：CVR-100UC</li>";
 		fonHtml+="</ul>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008130001.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:320px;height: 300px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008130001.jpg\" alt=\"big\" style=\"width: 203px;height: 295px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008130001.jpg\" alt=\"small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008130001.jpg\" alt=\"small\" style=\"width: 41px;height: 60px;margin-left: 10px;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 			itemHtml+="<img src=\"../../UpFiles/File/202008130007.png\" alt=\"small\">";
@@ -236,16 +252,22 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==7){
+		ppnHtml+="<a href=\"goods.html?id=2\">门禁产品</a>";
+		cpnHtml+="智能道闸机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">智能道闸机</div>";
 
-		itemHtml+="<a class=\"big-photo\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:320px;height: 300px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\" alt=\"big\" style=\"width: 200px;height: 300px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
-			itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\" alt=\"small\">";
+			itemHtml+="<img src=\"../../UpFiles/File/202008170001.jpg\" alt=\"small\" style=\"width: 40px;height: 60px;margin-left: 10px;\">";
 		itemHtml+="</a>";
 	}
 	else if(id==2){
+		ppnHtml+="<a href=\"goods.html?id=2\">门禁产品</a>";
+		cpnHtml+="道闸触发雷达";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">道闸触发雷达</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>CSR-DH 道闸触发雷达</li>";
@@ -271,13 +293,16 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==3){
+		ppnHtml+="<a href=\"goods.html?id=3\">自动收发卡系列</a>";
+		cpnHtml+="辰麒IC读卡器";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">辰麒IC读卡器</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>CQ-35LT 辰麒IC读卡器</li>";
 		fonHtml+="</ul>";
 
-		itemHtml+="<a class=\"big-photo\">";
-		itemHtml+="<img src=\"../../UpFiles/File/202008130003.jpg\" alt=\"big\">";
+		itemHtml+="<a class=\"big-photo\" style=\"width:320px;height: 300px;text-align: center;border: 1px solid #e0e0e0;display: inline-block;\">";
+		itemHtml+="<img src=\"../../UpFiles/File/202008130003.jpg\" alt=\"big\" style=\"width: 254px;height: 300px;border: 0;\">";
 		itemHtml+="</a>";
 		itemHtml+="<a class=\"des-small\">";
 		itemHtml+="<img src=\"../../UpFiles/File/202008130003.jpg\" alt=\"small\">";
@@ -296,6 +321,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==8){
+		ppnHtml+="<a href=\"goods.html?id=3\">自动收发卡系列</a>";
+		cpnHtml+="收发卡机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">收发卡机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>CQ-591-MR01-EBNJ 收发卡机</li>";
@@ -309,6 +337,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==4){
+		ppnHtml+="<a href=\"goods.html?id=4\">二维码流程控制产品</a>";
+		cpnHtml+="固定式条码扫描器";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">固定式条码扫描器</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>型号:NLS-FM430</li>";
@@ -319,6 +350,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==5){
+		ppnHtml+="<a href=\"goods.html?id=4\">二维码流程控制产品</a>";
+		cpnHtml+="NLS-MT60E(4G)_Datasheet_cn 4寸安卓";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">NLS-MT60E(4G)_Datasheet_cn 4寸安卓</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -326,6 +360,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==6){
+		ppnHtml+="<a href=\"goods.html?id=6\">其他设备</a>";
+		cpnHtml+="互射式红外光栅防盗探测器";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">互射式红外光栅防盗探测器</div>";
 
 		itemHtml+="<a class=\"big-photo\">";
@@ -333,6 +370,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==9){
+		ppnHtml+="<a href=\"goods.html?id=6\">其他设备</a>";
+		cpnHtml+="经销出入口补光抓拍一体机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">经销出入口补光抓拍一体机</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>型号：DS-TCG2A5-B</li>";
@@ -346,6 +386,8 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
+	ppnSpan.html(ppnHtml);
+	cpnSpan.html(cpnHtml);
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
 	BtnOK(1);
@@ -2880,8 +2922,8 @@ $(document).ready(function(){
 	<div class="row" id="pt">
 		<img src="../../img/202008110003.png" alt="">
 		<span>工控产品&gt;</span>
-		<span>门禁智能称重产品&gt;</span>
-		<span>身份证读取器</span>
+		<span class="par_pos_nav_span" id="par_pos_nav_span"></span>&gt;
+		<span id="chi_pos_nav_span"></span>
 	</div>
 </div>
 
