@@ -28,6 +28,9 @@ a {
     margin: 0px;
     font-size: 13px;
 }
+#pt .gkcp_pos_nav_span a,#pt .par_pos_nav_span a{
+	color: #2b2b2b;
+}
 #pt span:last-child {
     color: #0067B2;
 }
@@ -160,12 +163,19 @@ $(function(){
 });
 
 function initDetailInfo(){
+	var ppnSpan=$("#par_pos_nav_span");
+	var cpnSpan=$("#chi_pos_nav_span");
 	var fonDiv=$("#show #fon");
 	var itemDiv=$("#show #item");
+	var ppnHtml="";
+	var cpnHtml="";
 	var fonHtml="";
 	var itemHtml="";
 	var id=getQueryString("id");
 	if(id==61){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="V150Plus喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>V150Plus喷码机</li>";
@@ -192,6 +202,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==62){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="V280Plus喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>V280Plus喷码机</li>";
@@ -218,6 +231,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==66){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="v380Plus喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>v380Plus喷码机</li>";
@@ -244,6 +260,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==68){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="V380P白墨机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>V380P白墨机</li>";
@@ -270,6 +289,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==72){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="V220Plus喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>V220Plus喷码机</li>";
@@ -296,6 +318,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==145){
+		ppnHtml+="<a href=\"goods.html?id=7\">小字符喷码机</a>";
+		cpnHtml+="v260Plus喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">小字符喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>v260Plus喷码机</li>";
@@ -322,6 +347,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==73){
+		ppnHtml+="<a href=\"goods.html?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="二氧化碳激光打标机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">激光打码机/打标机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>二氧化碳激光打标机</li>";
@@ -348,6 +376,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==74){
+		ppnHtml+="<a href=\"goods.html?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="光纤激光打标机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">激光打码机/打标机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>光纤激光打标机</li>";
@@ -374,6 +405,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==149){
+		ppnHtml+="<a href=\"goods.html?id=8\">激光打码机/打标机</a>";
+		cpnHtml+="紫外激光打标机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">激光打码机/打标机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>紫外激光打标机</li>";
@@ -400,6 +434,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==76){
+		ppnHtml+="<a href=\"goods.html?id=9\">高解析喷码机</a>";
+		cpnHtml+="T300系列高解析喷码设备";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>T300系列高解析喷码设备</li>";
@@ -426,6 +463,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==78){
+		ppnHtml+="<a href=\"goods.html?id=9\">高解析喷码机</a>";
+		cpnHtml+="MDPS多功能数据打印系统";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>MDPS多功能数据打印系统</li>";
@@ -452,6 +492,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==79){
+		ppnHtml+="<a href=\"goods.html?id=9\">高解析喷码机</a>";
+		cpnHtml+="S系列手持喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>S系列手持喷码机</li>";
@@ -478,6 +521,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==282){
+		ppnHtml+="<a href=\"goods.html?id=9\">高解析喷码机</a>";
+		cpnHtml+="T800系列高解析喷码设备";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">高解析喷码机</div>";
 		fonHtml+="<ul>";
 			fonHtml+="<li>T800系列高解析喷码设备</li>";
@@ -504,6 +550,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==75){
+		ppnHtml+="<a href=\"goods.html?id=10\">大字符喷码机</a>";
+		cpnHtml+="大字符喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">大字符喷码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>大字符喷码机</li>";
@@ -530,6 +579,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==104){
+		ppnHtml+="<a href=\"goods.html?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV6610喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>UV6610喷码机</li>";
@@ -556,6 +608,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==105){
+		ppnHtml+="<a href=\"goods.html?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV8900喷印系统";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>UV8900喷印系统</li>";
@@ -582,6 +637,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==106){
+		ppnHtml+="<a href=\"goods.html?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV9100喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li> UV9100喷码机</li>";
@@ -608,6 +666,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==270){
+		ppnHtml+="<a href=\"goods.html?id=54\">UV可变数据喷印系统</a>";
+		cpnHtml+="UV6810喷码机";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">UV可变数据喷印系统</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>UV6810喷码机</li>";
@@ -634,6 +695,9 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	else if(id==196){
+		ppnHtml+="<a href=\"goods.html?id=100\">R系列热转印智能打码机</a>";
+		cpnHtml+="TTO热转印设备";
+
 		fonHtml+="<div style=\"font-size:1.5vw;\">R系列热转印智能打码机</div>";
 		fonHtml+="<ul>";
 		fonHtml+="<li>TTO热转印设备</li>";
@@ -660,6 +724,8 @@ function initDetailInfo(){
 		itemHtml+="</a>";
 	}
 	$("#inputid").val(id)
+	ppnSpan.html(ppnHtml);
+	cpnSpan.html(cpnHtml);
 	fonDiv.html(fonHtml);
 	itemDiv.html(itemHtml);
 	BtnOK(1);
@@ -1220,9 +1286,9 @@ $(document).ready(function(){
 <div class="container">
 	<div class="row" id="pt">
 		<img src="../../img/202008110003.png" alt="">
-		<span>工控产品&gt;</span>
-		<span>二维码喷码机&gt;</span>
-		<span>小字符喷码器</span>
+		<span class="gkcp_pos_nav_span"><a href="goods.html?id=7">工控产品&gt;</a></span>
+		<span class="par_pos_nav_span" id="par_pos_nav_span"></span>&gt;
+		<span id="chi_pos_nav_span"></span>
 	</div>
 </div>
 
