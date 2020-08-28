@@ -140,6 +140,12 @@ function BtnOK(id){
 				itemHtml+="<p>汽车地磅</p>";
 			itemHtml+="</a>";
 		itemHtml+="</div>";
+		itemHtml+="<div>";
+			itemHtml+="<a href=\"gooddetail.html?id=15\">";
+				itemHtml+="<img src=\"../../UpFiles/File/202008270004.jpg\" style=\"width: 268px;height:165px;\">";
+				itemHtml+="<p>电子汽车衡器</p>";
+			itemHtml+="</a>";
+		itemHtml+="</div>";
 	}
 	else if(id==6){
 		pnHtml+="其他设备";
@@ -465,7 +471,7 @@ $(".topn").toggle(function(){
 <div class="container">
 	<div class="row" id="pt">
 		<img src="../../img/202008110003.png" alt="">
-		<span>工控产品&gt;</span>
+		<span class="gkcp_pos_nav_span"><a href="goods.html?id=1">工控产品&gt;</a></span>
 		<span id="pos_nav_span"></span>
 	</div>
 </div>
